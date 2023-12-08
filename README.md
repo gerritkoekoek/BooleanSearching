@@ -34,3 +34,13 @@ static void Test() {
   Console.WriteLine(root.ToStringNice());
 }
 ```
+**Which results in:**
+```
+Results:
+test1 Slot Genemuiden 0691191100 kakhoofd lazy
+
++- test AND genemuiden (Evaluate (Results: 1) (Solved: True | Time: 1702022397743))
+   +- test (SearchString (Results: 2) (Solved: True | Time: 1702022397741))
+   +- AND (BooleanOperatorAND (Results: 1) (Solved: True | Time: 1702022397743))
+   +- genemuiden (SearchString (Results: 1) (Solved: True | Time: 1702022397741))
+```
